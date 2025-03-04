@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('images/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: black;
+    text-align: center;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 15px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.profil img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.services div, .contact p {
+    margin: 10px 0;
+}
+
+.services img {
+    width: 200px;
+}
+
+.icon {
+    width: 20px;
+    vertical-align: middle;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
